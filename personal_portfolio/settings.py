@@ -53,6 +53,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'personal_portfolio.urls'
 
+# collect all the images in an uploads/ folder and serve them with a media/URL
+MEDIA_ROOT = BASE_DIR / "uploads/"  # folder that stores the media files in our sytem
+MEDIA_URL = "media/"   # user facing URL for the media folder
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
