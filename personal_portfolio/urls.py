@@ -24,6 +24,5 @@ urlpatterns = [
     # URL config for our pages app
     path('', include("pages.urls")),
     path("projects/", include("projects.urls")),
-] +
-# to serve the media files 
-static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    # to serve the media files
+] +  static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
