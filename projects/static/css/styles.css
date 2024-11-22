@@ -1,0 +1,18 @@
+/* .card {
+  color: #4cd137;
+  border: none;
+} */
+
+.card-body {
+  color: green;
+}
+
+.btn {
+  background: linear-gradient(to right, #C4E538, #009432);
+  color: white;
+  outline: none;
+}
+
+.heading {
+  color: #44b78b;
+}

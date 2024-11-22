@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "projects/base.html" %}
 
 {% block page_content %}
 <h1 class="heading">Projects</h1>
@@ -9,8 +9,8 @@
         {% if project.image %}
           <img class="card-img-top" src="{{ project.image.url }}" alt="">
         {% endif %}
-        <div class="card-body bg-dark">
-          <h5 class="card-title text-success">{{ project.title }}</h5>
+        <div class="card-body">
+          <h5 class="card-title">{{ project.title }}</h5>
           <p class="card-text">{{ project.details }}</p>
           <!-- add a link to the project_detail.html page if the user clicks on "Read More" -->
           <a href="#" class="btn">
