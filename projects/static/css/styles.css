@@ -5,19 +5,20 @@
 
 .navbar {
   background: green;
-  margin: none;
-  padding: none;
-  border: 1px solid rgb(0, 0, 0);
+  a {
+    color: #fff;
   }
+}
 
-  .navbar-brand {
+.navbar-brand {
     font-weight: 200;
   }
 
 .btn {
   /* background: linear-gradient(to right, #C4E538, #009432); */
-  background-color: #44b78b;
+  /* background: #C4E538; */
   outline: none;
+  border: none;
 }
 
 .heading {
